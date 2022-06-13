@@ -5,6 +5,8 @@ set colorcolumn=80
 
 syntax match Comment /!.*!/
 
+syntax match Include /&\S*/
+
 " TODO this is ugly!!!
 syntax match Keyword /ALB/
 syntax match Keyword /AREA/
@@ -42,6 +44,6 @@ syntax match Keyword /STR/
 syntax match Keyword /TREE/
 syntax match Keyword /TRISO/
 
-syntax match Literal /\'.*\'/
+syntax match Literal /'\S*'/
 
 syntax match Parameter /\$\S*/
