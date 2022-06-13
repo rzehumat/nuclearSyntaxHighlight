@@ -1,0 +1,1 @@
+highlight Preprocessor ctermfg=grey
