@@ -7,7 +7,7 @@ syntax match Comment /!.*!/
 syntax match Comment /!.*\n/
  
 syntax match Preprocessor /%.*\n/
-" syntax match Include /&\S*/
+syntax match Include /&\S*/
 " 
 " " TODO this is ugly!!!
 " syntax match Keyword /ALB/
@@ -46,6 +46,6 @@ syntax match Preprocessor /%.*\n/
 " syntax match Keyword /TREE/
 " syntax match Keyword /TRISO/
 " 
-" syntax match Literal /'\S*'/
+syntax match Literal /'\S*'/
 " 
-" syntax match Parameter /\$\S*/
+syntax match Parameter /\$\S*/
