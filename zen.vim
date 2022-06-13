@@ -31,11 +31,14 @@ syntax match Keyword /CNDNS/
 " syntax match Keyword /DUMP/
 syntax match Keyword /EXPORT/
 " syntax match Keyword /FACE/
+syntax match Keyword /FOR/
 syntax match Keyword /FORMULA/
 " syntax match Keyword /GROUP/
 syntax match Keyword /ICUR/
 syntax match Keyword /IFACE/
+syntax match Keyword /IMP/
 syntax match Keyword /IMPORT/
+syntax match Keyword /IND/
 syntax match Keyword /INDEX/
 " syntax match Keyword /INTCUR/
 " syntax match Keyword /ISOX/
@@ -51,6 +54,7 @@ syntax match Keyword /MAP/
 " syntax match Keyword /OVSD/
 " syntax match Keyword /OVSM/
 " syntax match Keyword /OVST/
+syntax match Keyword /PAR/
 syntax match Keyword /PARAMETER/
 " syntax match Keyword /PATH/
 " syntax match Keyword /PERT/
@@ -58,6 +62,7 @@ syntax match Keyword /PRINT/
 " syntax match Keyword /RESUP/
 " syntax match Keyword /RST/
 " syntax match Keyword /RUN/
+syntax match Keyword /SEL/
 syntax match Keyword /SELECT/
 syntax match Keyword /SET/
 " syntax match Keyword /STAT/
