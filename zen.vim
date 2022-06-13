@@ -3,8 +3,10 @@
 " mark the one that already shall not be used
 set colorcolumn=80
 
-" syntax match Comment /!.*!/
-" 
+syntax match Comment /!.*!/
+syntax match Comment /!.*\n/
+ 
+syntax match Preprocessor /%.*\n/
 " syntax match Include /&\S*/
 " 
 " " TODO this is ugly!!!
