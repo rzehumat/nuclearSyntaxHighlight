@@ -46,4 +46,4 @@ syntax match Keyword /TRISO/
 
 syntax match Literal /'\S*'/
 
-syntax match Parameter /\$\S*/
+syntax match Parameter /\$[a-zA-Z0-9_]*/
