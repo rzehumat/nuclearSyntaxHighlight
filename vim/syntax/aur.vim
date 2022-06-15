@@ -46,6 +46,7 @@ syntax match Keyword /STR/
 syntax match Keyword /TREE/
 syntax match Keyword /TRISO/
 
+" TODO this should catch spaces as well
 syntax match Literal /'\S*'/
 
 syntax match Parameter /\$[a-zA-Z0-9_]*/
