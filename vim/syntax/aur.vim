@@ -3,6 +3,8 @@
 " mark the one that already shall not be used
 set colorcolumn=80
 
+" TODO match multiline comments as well
+" syntax match Comment /!\(.\|\n\)*!/
 syntax match Comment /!.*!/
 
 syntax match Include /&\S*/
