@@ -5,9 +5,9 @@ So far for Andrea, Helios (Aurora) and Serpent in editors vim and Notepad++.
 Serpent for vim has already been done -- see https://github.com/gridley/serpent2vimsyntax.
 
 ### Recommended file extensions
-Andrea: `.andrea`
-Helios (Aurora): `.aur`
-Serpent: `.serp`
+- Andrea: `.andrea`
+- Helios (Aurora): `.aur`
+- Serpent: `.serp`
 
 ## Installation
 
