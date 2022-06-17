@@ -5,23 +5,48 @@ syntax match beginEnd /end/
 
 syntax match Comment /#.*/
 
+syntax match Keyword / adiabatic/
 syntax match Keyword / assemblies/
+syntax match Keyword / base/
 syntax match Keyword / calcul/
 syntax match Keyword / config/
+" TODO use regex here
+syntax match Keyword / data/
+syntax match Keyword / dump/
+syntax match Keyword / dumps/
+syntax match Keyword / material/
 syntax match Keyword / output/
+syntax match Keyword / parametrization/
 syntax match Keyword / path/
+syntax match Keyword / solver/
+syntax match Keyword / tm/
 
+syntax match minorKeyword /axial_albedo/
+syntax match minorKeyword /b10_depletion/
 syntax match minorKeyword /BANK10/
+syntax match minorKeyword /burnup_gradient/
 syntax match minorKeyword /CT/
+syntax match minorKeyword /core_axial_power/
+syntax match minorKeyword /cycle /
+syntax match minorKeyword /data_dev/
 syntax match minorKeyword /dT/
+syntax match minorKeyword /eps_feedback/
+syntax match minorKeyword /file/
 syntax match minorKeyword /IT/
 syntax match minorKeyword /library/
+" TODO wtf name does not work
+syntax match minorKeyword /name/
 syntax match minorKeyword /P/
 syntax match minorKeyword /pinwise_depletion/
 syntax match minorKeyword /pinwise_power/
+syntax match minorKeyword /power_in_core/
+syntax match minorKeyword /radial_albedo/
+syntax match minorKeyword /restart/
+syntax match minorKeyword /sr/
 syntax match minorKeyword /table_file/
 syntax match minorKeyword /templates/
 syntax match minorKeyword /title/
+syntax match minorKeyword /tlg/
 syntax match minorKeyword /Xe/
 
 syntax match Parameter /".*"/
