@@ -3,6 +3,7 @@
 syntax match beginEnd /read/
 syntax match beginEnd /end/
 
+syntax match Comment /#.*/
 "" " THIS IS FOR AURORA INPUT FILES
 "" 
 "" " mark the one that already shall not be used
