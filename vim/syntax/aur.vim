@@ -4,6 +4,8 @@
 set colorcolumn=80
 
 " TODO match multiline comments as well
+" TODO do not match space between two comments, i.e. distinguish 
+" which ! is left and which right
 " syntax match Comment /!\(.\|\n\)*!/
 syntax match Comment /!.*!/
 
