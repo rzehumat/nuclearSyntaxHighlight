@@ -14,45 +14,72 @@ syntax match Keyword / config/
 syntax match Keyword / data/
 syntax match Keyword / dump/
 syntax match Keyword / dumps/
+syntax match Keyword / geometry/
+syntax match Keyword / kinetics/
 syntax match Keyword / material/
 syntax match Keyword / output/
 syntax match Keyword / parametrization/
 syntax match Keyword / path/
+syntax match Keyword / reload_map/
 syntax match Keyword / solver/
 syntax match Keyword / tm/
 
 syntax match minorKeyword /axial_albedo/
 syntax match minorKeyword /b10_depletion/
 syntax match minorKeyword /BANK10/
+syntax match minorKeyword /beff/
 syntax match minorKeyword /burnup_gradient/
 syntax match minorKeyword /CT/
+syntax match minorKeyword /coefs/
 syntax match minorKeyword /core_axial_power/
+syntax match minorKeyword /cross_sections/
 syntax match minorKeyword /cycle /
 syntax match minorKeyword /data_dev/
+syntax match minorKeyword /df/
+syntax match minorKeyword /ddf/
 syntax match minorKeyword /dT/
 syntax match minorKeyword /eps_feedback/
+syntax match minorKeyword /fha_map/
 syntax match minorKeyword /file/
+syntax match minorKeyword /heat_capacity/
 syntax match minorKeyword /IT/
+syntax match minorKeyword /lambda/
 syntax match minorKeyword /library/
+syntax match minorKeyword /method/
 " TODO wtf name does not work
+" it gets captured as Other 'n'
+" We should introduce some keyword precedence or what
 syntax match minorKeyword /name/
+syntax match minorKeyword /node_map/
 syntax match minorKeyword /P/
 syntax match minorKeyword /pinwise_depletion/
 syntax match minorKeyword /pinwise_power/
+syntax match minorKeyword /pitch/
 syntax match minorKeyword /power_in_core/
 syntax match minorKeyword /radial_albedo/
+syntax match minorKeyword /radius/
 syntax match minorKeyword /restart/
+syntax match minorKeyword /ri_fuel/
+syntax match minorKeyword /ro_fuel/
+syntax match minorKeyword /save_files/
 syntax match minorKeyword /sr/
+syntax match minorKeyword /symmetry/
 syntax match minorKeyword /table_file/
+syntax match minorKeyword /temperatures/
 syntax match minorKeyword /templates/
+syntax match minorKeyword /Tf/
+syntax match minorKeyword /thtm/
+syntax match minorKeyword /times/
 syntax match minorKeyword /title/
 syntax match minorKeyword /tlg/
+syntax match minorKeyword /type/
+syntax match minorKeyword /variable/
 syntax match minorKeyword /Xe/
 
 syntax match Parameter /".*"/
 
-syntax match Other /n/
-syntax match Other /y/
+syntax match Other / n/
+syntax match Other / y/
 "" " THIS IS FOR AURORA INPUT FILES
 "" 
 "" " mark the one that already shall not be used
