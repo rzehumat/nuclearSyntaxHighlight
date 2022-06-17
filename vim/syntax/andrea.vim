@@ -29,6 +29,7 @@ syntax match Keyword / parametrization/
 syntax match Keyword / path/
 syntax match Keyword / reload_map/
 syntax match Keyword / rod/
+syntax match Keyword / rods/
 syntax match Keyword / solver/
 syntax match Keyword / tm/
 syntax match Keyword / zones/
@@ -37,7 +38,19 @@ syntax match minorKeyword /above/
 syntax match minorKeyword /absorb/
 syntax match minorKeyword /axial_albedo/
 syntax match minorKeyword /b10_depletion/
+" TODO ugly, rewrite
+syntax match minorKeyword /BANK1/
+syntax match minorKeyword /BANK2/
+syntax match minorKeyword /BANK3/
+syntax match minorKeyword /BANK4/
+syntax match minorKeyword /BANK5/
+syntax match minorKeyword /BANK6/
+syntax match minorKeyword /BANK7/
+syntax match minorKeyword /BANK8/
+syntax match minorKeyword /BANK9/
 syntax match minorKeyword /BANK10/
+syntax match minorKeyword /BANK11/
+syntax match minorKeyword /BANK12/
 syntax match minorKeyword /baseline/
 syntax match minorKeyword /beff/
 syntax match minorKeyword /burnup_gradient/
