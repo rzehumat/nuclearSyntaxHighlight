@@ -19,6 +19,7 @@ syntax match Keyword / data/
 " TODO use regex here
 syntax match Keyword / dump/
 syntax match Keyword / dumps/
+syntax match Keyword / flow_map/
 syntax match Keyword / geometry/
 syntax match Keyword / kinetics/
 syntax match Keyword / limits/
@@ -31,6 +32,7 @@ syntax match Keyword / reload_map/
 syntax match Keyword / rod/
 syntax match Keyword / rods/
 syntax match Keyword / solver/
+syntax match Keyword / th/
 syntax match Keyword / tm/
 syntax match Keyword / zones/
 
@@ -110,6 +112,7 @@ syntax match minorKeyword /side_flux_in_node/
 syntax match minorKeyword /sr/
 syntax match minorKeyword /symmetry/
 syntax match minorKeyword /table_file/
+syntax match minorKeyword /temperature_map/
 syntax match minorKeyword /temperatures/
 " TODO issue with 'template' at right hand side
 syntax match minorKeyword /template/
