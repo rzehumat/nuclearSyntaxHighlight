@@ -53,6 +53,7 @@ syntax match minorKeyword /BANK9/
 syntax match minorKeyword /BANK10/
 syntax match minorKeyword /BANK11/
 syntax match minorKeyword /BANK12/
+syntax match minorKeyword /BANKS/
 syntax match minorKeyword /baseline/
 syntax match minorKeyword /beff/
 syntax match minorKeyword /burnup_gradient/
@@ -65,6 +66,7 @@ syntax match minorKeyword /core_top/
 syntax match minorKeyword /cross_sections/
 syntax match minorKeyword /cycle /
 syntax match minorKeyword /data_dev/
+syntax match minorKeyword /dBC/
 syntax match minorKeyword /ddf/
 syntax match minorKeyword /df/
 syntax match minorKeyword /direction/
@@ -75,6 +77,7 @@ syntax match minorKeyword /enable_sor/
 syntax match minorKeyword /eps_feedback/
 syntax match minorKeyword /eps_inner/
 syntax match minorKeyword /eps_outer/
+syntax match minorKeyword /feedback_states/
 syntax match minorKeyword /fha_map/
 syntax match minorKeyword /file/
 syntax match minorKeyword /flux_in_layer/
@@ -107,6 +110,15 @@ syntax match minorKeyword /radius/
 syntax match minorKeyword /restart/
 syntax match minorKeyword /ri_fuel/
 syntax match minorKeyword /ro_fuel/
+syntax match minorKeyword /ROD1/
+syntax match minorKeyword /ROD2/
+syntax match minorKeyword /ROD3/
+syntax match minorKeyword /ROD4/
+syntax match minorKeyword /ROD5/
+syntax match minorKeyword /ROD6/
+syntax match minorKeyword /ROD7/
+syntax match minorKeyword /ROD8/
+syntax match minorKeyword /ROD9/
 syntax match minorKeyword /save_files/
 syntax match minorKeyword /side_flux_in_node/
 syntax match minorKeyword /sr/
@@ -122,6 +134,7 @@ syntax match minorKeyword /thtm/
 syntax match minorKeyword /times/
 syntax match minorKeyword /title/
 syntax match minorKeyword /tlg/
+syntax match minorKeyword /trim_max/
 syntax match minorKeyword /type/
 syntax match minorKeyword /variable/
 syntax match minorKeyword /Xe/
