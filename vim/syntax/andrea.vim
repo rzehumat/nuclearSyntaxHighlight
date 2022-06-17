@@ -78,8 +78,8 @@ syntax match minorKeyword /Xe/
 
 syntax match Parameter /".*"/
 
-syntax match Other / n/
-syntax match Other / y/
+" syntax match Other / n/
+" syntax match Other / y/
 "" " THIS IS FOR AURORA INPUT FILES
 "" 
 "" " mark the one that already shall not be used
