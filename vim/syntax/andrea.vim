@@ -4,6 +4,30 @@ syntax match beginEnd /read/
 syntax match beginEnd /end/
 
 syntax match Comment /#.*/
+
+syntax match Keyword / assemblies/
+syntax match Keyword / calcul/
+syntax match Keyword / config/
+syntax match Keyword / output/
+syntax match Keyword / path/
+
+syntax match minorKeyword /BANK10/
+syntax match minorKeyword /CT/
+syntax match minorKeyword /dT/
+syntax match minorKeyword /IT/
+syntax match minorKeyword /library/
+syntax match minorKeyword /P/
+syntax match minorKeyword /pinwise_depletion/
+syntax match minorKeyword /pinwise_power/
+syntax match minorKeyword /table_file/
+syntax match minorKeyword /templates/
+syntax match minorKeyword /title/
+syntax match minorKeyword /Xe/
+
+syntax match Parameter /".*"/
+
+syntax match Other /n/
+syntax match Other /y/
 "" " THIS IS FOR AURORA INPUT FILES
 "" 
 "" " mark the one that already shall not be used
