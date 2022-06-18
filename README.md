@@ -1,12 +1,13 @@
 # nuclearSyntaxHighlight
 Syntax highlighting for different codes in nuclear engineering. 
-So far for Andrea, Helios (Aurora) and Serpent in editors vim and Notepad++.
+Editors `vim` and `Notepad++`.
 
 Serpent for vim has already been done -- see https://github.com/gridley/serpent2vimsyntax.
 
-### Recommended file extensions
+### Codes and recommended file extensions
 - Andrea: `.andrea`
 - Helios (Aurora): `.aur`
+- PARCS: `.parcs`
 - Serpent: `.serp`
 
 ## Installation
