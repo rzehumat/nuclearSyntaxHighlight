@@ -13,7 +13,7 @@
             <Keywords name="Numbers, suffix1"></Keywords>
             <Keywords name="Numbers, suffix2"></Keywords>
             <Keywords name="Numbers, range"></Keywords>
-            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators1">*</Keywords>
             <Keywords name="Operators2"></Keywords>
             <Keywords name="Folders in code1, open"></Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
@@ -24,8 +24,8 @@
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1">CASEID CNTL PARAM XSEC DEPL GEOM HEXGEOM FDBK TH TRAN MCYCLE FMFD PFF ONEDK</Keywords>
-            <Keywords name="Keywords2">BOUN_COND &#x000D;&#x000A;DECAY_HEAT &#x000D;&#x000A;DELCR_XESM&#x000D;&#x000A;DEPLETION &#x000D;&#x000A;DHP_BETA &#x000D;&#x000A;DHP_LAMBDA  &#x000D;&#x000A;EPS_ANM &#x000D;&#x000A;LSOLVER&#x000D;&#x000A;NODAL_KERN  &#x000D;&#x000A;NSPN &#x000D;&#x000A;PIN_FREQ &#x000D;&#x000A;PIN_POWER&#x000D;&#x000A;PINCAL_LOC  &#x000D;&#x000A;PRINT_OPT&#x000D;&#x000A;SEARCH &#x000D;&#x000A;TRANSIENT &#x000D;&#x000A;WIELANDT  &#x000D;&#x000A;XE_SM &#x000D;&#x000A;XESM_MICRO MULT_CYC BANK_POS BANK_ULT BANK_LLT BANK_GRP DELCR CR_AXINFO BANK_CONF CRB_DEF CRB_TYPE CRB_GTUBE CANDU_CONF CANDU_CRTY CUSTOM_CR CCR_BANK LINEAR_CR LINCR_BANK MOVE_BANK SCRAM DECUSP DECUSP_FC TREE_XS PMAXS_F INT_TH EXT_TH RESTART RST_FREQ DETECTOR DET_LOC DET_XY_LOC DET_Z_LOC DET_Z_WEI DET_NAME ONED_KIN ONED_XSID</Keywords>
+            <Keywords name="Keywords1">CASEID CNTL DEPL FDBK FMFD GEOM HEXGEOM MCYCLE ONEDK PARAM PFF TH TRAN XSEC  </Keywords>
+            <Keywords name="Keywords2">ASSY_TYPE&#x000D;&#x000A;BOUN_COND&#x000D;&#x000A;CORE_TYPE&#x000D;&#x000A;CORE_POWER &#x000D;&#x000A;DECAY_HEAT &#x000D;&#x000A;DELCR_XESM&#x000D;&#x000A;DEPLETION &#x000D;&#x000A;DHP_BETA &#x000D;&#x000A;DHP_LAMBDA  &#x000D;&#x000A;EPS_ANM &#x000D;&#x000A;LSOLVER&#x000D;&#x000A;NODAL_KERN  &#x000D;&#x000A;NSPN &#x000D;&#x000A;PIN_FREQ &#x000D;&#x000A;PIN_POWER&#x000D;&#x000A;PINCAL_LOC&#x000D;&#x000A;PLOT_OPTS&#x000D;&#x000A;PPM  &#x000D;&#x000A;PRINT_OPT&#x000D;&#x000A;RUN_OPTS&#x000D;&#x000A;SEARCH &#x000D;&#x000A;TRANSIENT &#x000D;&#x000A;WIELANDT  &#x000D;&#x000A;XE_SM &#x000D;&#x000A;XESM_MICRO MULT_CYC BANK_POS BANK_ULT BANK_LLT BANK_GRP DELCR CR_AXINFO BANK_CONF CRB_DEF CRB_TYPE CRB_GTUBE CANDU_CONF CANDU_CRTY CUSTOM_CR CCR_BANK LINEAR_CR LINCR_BANK MOVE_BANK SCRAM DECUSP DECUSP_FC TREE_XS PMAXS_F INT_TH EXT_TH RESTART RST_FREQ DETECTOR DET_LOC DET_XY_LOC DET_Z_LOC DET_Z_WEI DET_NAME ONED_KIN ONED_XSID</Keywords>
             <Keywords name="Keywords3"></Keywords>
             <Keywords name="Keywords4"></Keywords>
             <Keywords name="Keywords5"></Keywords>
