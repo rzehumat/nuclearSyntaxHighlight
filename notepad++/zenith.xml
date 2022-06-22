@@ -27,7 +27,7 @@
             <Keywords name="Keywords1">ADJ ADJOINT ARR ARRAY BEGIN BON BONE CND CNDNS CON CONVERT END EXP EXPORT FOR FORMULA ICU ICUR IFA IFACE IMP IMPORT IND INDEX LIS LIST MAP PAR PARAMETER PRI PRINT SEL SELECT SET</Keywords>
             <Keywords name="Keywords2">ARE AREA MAC MACRO MIC MICRO RAN RANGE STA STATUS</Keywords>
             <Keywords name="Keywords3">R I E G O</Keywords>
-            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords4">ab aw b2 be bsq bu ch dn dr ed eigv eigvb2 fi fx fxm heg hengid isu isx isy ji jm jo jp kf kinf kinfb kod lam leg leng lck loc miso msq n2 n3 nd ndt nf nfa ng ngl nic nig nix nng nra p0 p1 p2 p3 pburn pscale ptime ptimx pwlvl rho rpp su sx sy tburn tdays to tr tri uburn vix viy vo vx vy xrp</Keywords>
             <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7"></Keywords>
@@ -42,7 +42,7 @@
             <WordsStyle name="KEYWORDS1" fgColor="B35900" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="007500" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
