@@ -1,1 +1,1 @@
-autocmd BufRead,BufNewFile *.aur set filetype=aur
+autocmd BufRead,BufNewFile *.aur set filetype=aurora

@@ -1,1 +1,1 @@
-autocmd BufRead,BufNewFile *.zen set filetype=zen
+autocmd BufRead,BufNewFile *.zen set filetype=zenith
