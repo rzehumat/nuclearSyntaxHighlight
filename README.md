@@ -13,8 +13,13 @@ Serpent for vim has already been done -- see https://github.com/gridley/serpent2
 ## Installation
 
 ### Notepad++
-1. Download files from `notepad++` and save them to `Notepad++\userDefineLangs` directory.
-2. It should work. If not, make sure you're using expected file extensions. You can also switch it manually in Languages toolbox.
+Alternatively:
+1. In top bar `Language` select `User defined language` -> `Define your language`
+2. Click to `Import` and select `xml` file from `notepad++` directory. When import is successful, you can repeatedly import more `xml` files.
+3. Restart Notepad++. After that, you should see the new languages to appear below the `User defined language` in `Language` tab.
+4. Syntax highlighting is either applied automatically according to file extension or select `Language` -> `(the language)` after opening the file.
+
+Hint: There is no possibility to restrict line length per language in Notepad++. However, you can enforce it by going to `Preferences` -> `Margins/Border/Edge` -> `Vertical Edge Settings` and type `80`. Tick `Background mode` according to own preferences (vertical line at 80th character or color background of everything behind 80 chars). You can also change the line color in `Settings` -> `Style Configurator` -> `Edge colour`
 
 ### vim
 > Note: Author is unsure, if presented way is the correct one. But it works.
