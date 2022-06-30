@@ -1,144 +1,49 @@
-" THIS IS FOR ANDREA INPUT FILES
+" Vim syntax file for Andrea
+" Language: Andrea Input file
+" Maintainer: rzehumat (Matej Rzehulka)
+" Latest Rev: Jun 30, 2022
+" ***utterly plagiarized from github.com/gridley/serpent2vimsyntax***
 
-syntax match beginEnd /read/
-syntax match beginEnd /end/
+if exists("b:current_syntax")
+    finish
+endif
 
-syntax match Comment /#.*/
+syntax keyword andreaBeginEnd read end
 
-syntax match Keyword / adiabatic/
-syntax match Keyword / assemblies/
+syntax match andreaComment /#.*/
+
 " TODO issue base vs baseline
-syntax match Keyword / base/
-syntax match Keyword / bank/
-syntax match Keyword / boundary/
-syntax match Keyword / calcul/
-syntax match Keyword / config/
-syntax match Keyword / control_rods/
 " TODO this is also minorKeyword
-syntax match Keyword / data/
 " TODO use regex here
-syntax match Keyword / dump/
-syntax match Keyword / dumps/
-syntax match Keyword / flow_map/
-syntax match Keyword / geometry/
-syntax match Keyword / kinetics/
-syntax match Keyword / limits/
-syntax match Keyword / map/
-syntax match Keyword / material/
-syntax match Keyword / output/
-syntax match Keyword / parametrization/
-syntax match Keyword / path/
-syntax match Keyword / reload_map/
-syntax match Keyword / rod/
-syntax match Keyword / rods/
-syntax match Keyword / solver/
-syntax match Keyword / th/
-syntax match Keyword / tm/
-syntax match Keyword / zones/
+syntax keyword andreaKeyword adiabatic assemblies base bank boundary calcul
+                \ config control_rods data dump dumps flow_map geometry 
+                \ kinetics limits map material output parametrization path
+                \ reload_map rod rods solver th tm zones
 
-syntax match minorKeyword /above/
-syntax match minorKeyword /absorb/
-syntax match minorKeyword /axial_albedo/
-syntax match minorKeyword /b10_depletion/
-" TODO ugly, rewrite
-syntax match minorKeyword /BANK1/
-syntax match minorKeyword /BANK2/
-syntax match minorKeyword /BANK3/
-syntax match minorKeyword /BANK4/
-syntax match minorKeyword /BANK5/
-syntax match minorKeyword /BANK6/
-syntax match minorKeyword /BANK7/
-syntax match minorKeyword /BANK8/
-syntax match minorKeyword /BANK9/
-syntax match minorKeyword /BANK10/
-syntax match minorKeyword /BANK11/
-syntax match minorKeyword /BANK12/
-syntax match minorKeyword /BANKS/
-syntax match minorKeyword /baseline/
-syntax match minorKeyword /beff/
-syntax match minorKeyword /burnup_gradient/
-syntax match minorKeyword /CT/
-syntax match minorKeyword /coefs/
-syntax match minorKeyword /coords/
-syntax match minorKeyword /core_axial_power/
-syntax match minorKeyword /core_bottom/
-syntax match minorKeyword /core_top/
-syntax match minorKeyword /cross_sections/
-syntax match minorKeyword /cycle /
-syntax match minorKeyword /data_dev/
-syntax match minorKeyword /dBC/
-syntax match minorKeyword /ddf/
-syntax match minorKeyword /df/
-syntax match minorKeyword /direction/
-syntax match minorKeyword /downscatter/
-syntax match minorKeyword /dT/
-syntax match minorKeyword /enable_accel/
-syntax match minorKeyword /enable_sor/
-syntax match minorKeyword /eps_feedback/
-syntax match minorKeyword /eps_inner/
-syntax match minorKeyword /eps_outer/
-syntax match minorKeyword /feedback_states/
-syntax match minorKeyword /fha_map/
-syntax match minorKeyword /file/
-syntax match minorKeyword /flux_in_layer/
-syntax match minorKeyword /fuel/
-syntax match minorKeyword /heat_capacity/
-syntax match minorKeyword /IT/
-syntax match minorKeyword /lambda/
-syntax match minorKeyword /lattice/
-syntax match minorKeyword /library/
-syntax match minorKeyword /logical_output/
-syntax match minorKeyword /max/
-syntax match minorKeyword /mesh/
-syntax match minorKeyword /method/
-syntax match minorKeyword /min/
+" TODO ugly, rewrite Bank*
 " TODO wtf name does not work
 " it gets captured as Other 'n'
 " We should introduce some keyword precedence or what
-syntax match minorKeyword /name/
-syntax match minorKeyword /node_map/
-syntax match minorKeyword /number_of_groups/
-syntax match minorKeyword /P/
-syntax match minorKeyword /physical_min/
-syntax match minorKeyword /pinwise_depletion/
-syntax match minorKeyword /pinwise_power/
-syntax match minorKeyword /pitch/
-syntax match minorKeyword /power_in_core/
-syntax match minorKeyword /power_in_layer/
-syntax match minorKeyword /radial_albedo/
-syntax match minorKeyword /radius/
-syntax match minorKeyword /restart/
-syntax match minorKeyword /ri_fuel/
-syntax match minorKeyword /ro_fuel/
-syntax match minorKeyword /ROD1/
-syntax match minorKeyword /ROD2/
-syntax match minorKeyword /ROD3/
-syntax match minorKeyword /ROD4/
-syntax match minorKeyword /ROD5/
-syntax match minorKeyword /ROD6/
-syntax match minorKeyword /ROD7/
-syntax match minorKeyword /ROD8/
-syntax match minorKeyword /ROD9/
-syntax match minorKeyword /save_files/
-syntax match minorKeyword /side_flux_in_node/
-syntax match minorKeyword /sr/
-syntax match minorKeyword /symmetry/
-syntax match minorKeyword /table_file/
-syntax match minorKeyword /temperature_map/
-syntax match minorKeyword /temperatures/
 " TODO issue with 'template' at right hand side
-syntax match minorKeyword /template/
-syntax match minorKeyword /templates/
-syntax match minorKeyword /Tf/
-syntax match minorKeyword /thtm/
-syntax match minorKeyword /times/
-syntax match minorKeyword /title/
-syntax match minorKeyword /tlg/
-syntax match minorKeyword /trim_max/
-syntax match minorKeyword /type/
-syntax match minorKeyword /variable/
-syntax match minorKeyword /Xe/
-syntax match minorKeyword /zero/
+syntax keyword andreaMinorKeyword above absorb axial_albedo b10_depletion 
+        \ BANK1 BANK2 BANK3 BANK4 BANK5 BANK6 BANK7 BANK8 BANK9 BANK10 BANK11
+        \ BANK12 BANKS baseline beff burnup_gradient CT coefs coords 
+        \ core_axial_power core_bottom core_top cross_sections cycle data_dev
+        \ dBC ddf df direction downscatter dT enable_accel enable_sor 
+        \ eps_feedback eps_inner eps_outer feedback_states fha_map file 
+        \ flux_in_layer fuel heat_capacity IT lambda lattice library 
+        \ logical_output max mesh method min name node_map number_of_groups
+        \ P physical_min pinwise_depletion pinwise_power pitch power_in_core
+        \ power_in_layer radial_albedo radius restart ri_fuel ro_fuel ROD1
+        \ ROD2 ROD3 ROD4 ROD5 ROD6 ROD7 ROD8 ROD9 save_files side_flux_in_node
+        \ sr symmetry table_file temperature_map temperatures template 
+        \ templates Tf thtm times title tlg trim_max type variable Xe zero
 
-syntax match Parameter /".*"/
+syntax match andreaParameter /".*"/
 
+let b:current_syntax = "andrea"
+hi def link andreaBeginEnd Special
+hi def link andreaComment Comment
+hi def link andreaKeyword Identifier
+hi def link andreaMinorKeyword Statement
+hi def link andreaParameter Number
