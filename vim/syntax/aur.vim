@@ -19,7 +19,6 @@ syntax match auroraComment /!.*!/
 
 syntax match auroraInclude /&\S*/
 
-" TODO this is ugly!!!
 syntax keyword auroraKeyword ALB AREA BDRY CASE CCS CNX CUR DHET DBMAT 
                             \ DUMP FACE GROUP INTCUR ISOX MACRO MAT MICRO 
                             \ NEWK OVLD OVLM OVLT OVSD OVSM OVST PAR PATH 
@@ -36,8 +35,3 @@ hi def link auroraComment Comment
 hi def link auroraInclude Statement
 hi def link auroraLiteral String
 hi def link auroraParameter Number
-" highlight Include ctermfg=brown
-" highlight Comment ctermfg=red guifg=#ff0000
-" highlight Literal ctermfg=green
-" highlight Parameter ctermfg=magenta
-
