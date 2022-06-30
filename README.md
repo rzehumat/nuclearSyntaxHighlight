@@ -25,13 +25,4 @@ Hint: There is no possibility to restrict line length per language in Notepad++.
 > Note: Author is unsure, if presented way is the correct one. But it works.
 
 1. Copy files from `ftdetect` and `syntax` directories to respective ones in `~/.vim` (or wherever your default vim folder is). Or create symlinks there (easier to update -- just by `git pull`).
-2. Create `source` to colors to your `.vimrc` 
-
-```vim
-source ~/.vim/syntax/aur_styles.vim
-source ~/.vim/syntax/zen_styles.vim
-source ~/.vim/syntax/andrea_styles.vim
-source ~/.vim/syntax/reload_map_styles.vim
-
-```
-3. It should work. It activates either automatically by file extension or manually by command `set ft=<language_name>`, where `<language_name>` is in lowercase
+2. It should work. It activates either automatically by file extension or manually by command `set ft=<language_name>`, where `<language_name>` is in lowercase
