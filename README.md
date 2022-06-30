@@ -24,13 +24,15 @@ Hint: There is no possibility to restrict line length per language in Notepad++.
 ### vim
 Recommended: using [Vundle](https://github.com/VundleVim/Vundle.vim)
 
-1. Put following line into your `.vimrc` file
+1. Install [Vundle](https://github.com/VundleVim/Vundle.vim)
+2. Put following line into your `.vimrc` file
 ```vim
 call vundle#begin()
 Plugin 'rzehumat/nuclearSyntaxHighlight', {'rtp': 'vim/'}
 call vundle#end() 
-
 ```
+3. Run `vim` and type `:PluginInstall`
+4. It should work. It activates either automatically by file extension or manually by command `set ft=<language_name>`, where `<language_name>` is in lowercase.
 
 Alternative way
 > Note: Author is unsure, if presented way below is the correct one. But it works.
