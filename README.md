@@ -26,7 +26,9 @@ Recommended: using [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 1. Put following line into your `.vimrc` file
 ```vim
+call vundle#begin()
 Plugin 'rzehumat/nuclearSyntaxHighlight', {'rtp': 'vim/'}
+call vundle#end() 
 
 ```
 
