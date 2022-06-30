@@ -22,7 +22,16 @@ Alternatively:
 Hint: There is no possibility to restrict line length per language in Notepad++. However, you can enforce it by going to `Preferences` -> `Margins/Border/Edge` -> `Vertical Edge Settings` and type `80`. Tick `Background mode` according to own preferences (vertical line at 80th character or color background of everything behind 80 chars). You can also change the line color in `Settings` -> `Style Configurator` -> `Edge colour`
 
 ### vim
-> Note: Author is unsure, if presented way is the correct one. But it works.
+Recommended: using [Vundle](https://github.com/VundleVim/Vundle.vim)
+
+1. Put following line into your `.vimrc` file
+```vim
+Plugin 'rzehumat/nuclearSyntaxHighlight', {'rtp': 'vim/'}
+
+```
+
+Alternative way
+> Note: Author is unsure, if presented way below is the correct one. But it works.
 
 1. Copy files from `ftdetect` and `syntax` directories to respective ones in `~/.vim` (or wherever your default vim folder is). Or create symlinks there (easier to update -- just by `git pull`).
 2. It should work. It activates either automatically by file extension or manually by command `set ft=<language_name>`, where `<language_name>` is in lowercase
