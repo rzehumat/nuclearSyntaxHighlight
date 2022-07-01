@@ -5,10 +5,15 @@ Editors `vim` and `Notepad++`.
 Serpent for vim has already been done -- see https://github.com/gridley/serpent2vimsyntax.
 
 ### Codes and recommended file extensions
-- Andrea: `.andrea`
-- Helios (Aurora): `.aur`
-- PARCS: `.parcs`
-- Serpent: `.serp`
+
+| Name              | Extension             | Name (vim)    |
+| ---------         | -------------         | ------------- |
+| Andrea            | `.andrea`, `.input`   | andrea        |
+| Andrea reload map | `.reload_map`         | reload_map    |
+| Aurora (Helios)   | `.aur`                | aur           |
+| PARCS             | `.parcs`              | -             |
+| Serpent           | `.serp`               | -             | 
+| Zenith (Helios)   | `.zen`                | zen           |
 
 ## Installation
 
